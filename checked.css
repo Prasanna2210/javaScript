@@ -1,0 +1,15 @@
+body {
+    font-family: verdana;
+    font-size:2em;
+    padding-left: 5vh;
+    /* padding-top: 5px; */
+    margin-top: 50px;
+}
+#mybutton {
+    font-size: 1em;
+    cursor:pointer;
+    transition: background-color;
+}
+#mybutton:hover {
+    background-color: rgb(147, 197, 222);
+}

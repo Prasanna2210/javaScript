@@ -1,0 +1,40 @@
+#body {
+    /* background-color: aqua;
+    text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes it take the full viewport height */
+    margin: 0; /* Remove default margin */
+    flex-direction: column; /* Stack elements vertically */
+    background-color: #c0d9e4; /* Optional: Background color */
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#name {
+    font-size: 5em;
+    display:block;
+    text-align: center;
+}
+#countLabel {
+    display:block;
+    text-align:center;
+    font-size: 10em;
+    font-family: 'Arial Narrow', Arial, sans-serif; 
+}
+#btncontainer {
+    text-align: center;
+}
+.buttons {
+    padding: 10px 20px;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(56, 107, 184);
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color;
+}
+.buttons:hover {
+    background-color: rgb(219, 160, 93);
+}
