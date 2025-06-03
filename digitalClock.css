@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    /* background-color: black; */
+    /* background-image: url(images/images1.jpeg); */
+    background-image: url(images/clock3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#clock-container {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid; */
+    align-items: center;
+    height: 100vh;
+}
+#clock {
+    font-family:monospace;
+    font-size: 12em;
+    font-weight: bold;
+    color: rgb(245, 247, 249);
+    text-align: center;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    /* background-color: rgb(14, 15, 15); */
+}

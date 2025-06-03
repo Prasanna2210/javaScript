@@ -1,0 +1,47 @@
+body {
+    background-image: url(images/dice2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color:white;
+    font-weight: bold;
+}
+#container {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#textbox {
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    width: 150px;
+    /* padding:10px 15px; */
+    
+}
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: hsl(240, 36%, 55%);
+    cursor: pointer;
+    color: white;
+    transition: background-color;
+    font-weight: bold;
+}
+button:hover {
+    background-color: hsl(240, 36%, 65%);
+}
+button:active {
+    background-color: hsl(240, 36%, 75%);
+}
+#diceresult {
+    font-size: 1.5rem;
+    margin:25px;
+}
+#diceimages img{
+    width: 200px;
+}
